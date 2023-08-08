@@ -12,3 +12,5 @@ here's how it works:
 4.  send us a photo of you at the hackathon alongside your receipts, and we'll reimburse you via direct deposit or a cheque.
 
 we're offsetting all related carbon emissions through funding a collection of Gold Standard-certified projects.  **are you a hackathon organiser?**  let's work together to get more people to your hackathon, reach out to  [hackathons@hackclub.com](mailto:hackathons@hackclub.com).
+
+<img width="994" alt="Screenshot 2023-08-08 at 10 08 16 AM" src="https://github.com/hackclub/gas-fund/assets/39828164/79dd41d2-644b-4ae4-9f45-564b8e0a0963">
