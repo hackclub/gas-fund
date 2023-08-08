@@ -1,4 +1,4 @@
-**🚗 introducing the gas fund...**
+### **🚗 introducing the gas fund...**
 
 hackathons are incredibly special. we ([Hack Club](https://hackclub.com/)) want more people to be able to go to hackathons.
 
