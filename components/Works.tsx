@@ -1,21 +1,31 @@
+import { StepOne } from "./Steps/1";
+import { StepTwo } from "./Steps/2";
+import { StepThree } from "./Steps/3";
+import { StepFour } from "./Steps/4";
+import Tilt from "react-parallax-tilt";
+
 const Works = () => {
   return (
-    <div className="px-20">
-      <div className="text-white text-[40px] font-bold">
+    <div className="px-6 md:px-20 py-8 ">
+      {/* <div className="text-white text-left mb-3 text-8xl font-black">
         Here’s how it works
-      </div>
-      <div>
-        <ul className="space-y-4">
-          <li className="bg-[#FF0000] py-3 rounded-full w-20 flex justify-center font-bold text-[40px]">
-            1
-          </li>
-          <li className="bg-[#FFA500] py-3 rounded-full w-20 flex justify-center font-bold text-[40px]">
-            2
-          </li>
-          <li className="bg-[#008000] py-3 rounded-full w-20 flex justify-center font-bold text-[40px]">
-            3
-          </li>
-        </ul>
+      </div> */}
+      <div className="grid grid-cols-1  gap-12 max-w-6xl mx-auto md:grid-cols-2">
+        <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} gyroscope>
+          <StepOne />
+        </Tilt>
+
+        <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} gyroscope>
+          <StepTwo />
+        </Tilt>
+
+        <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} gyroscope>
+          {" "}
+          <StepThree />
+        </Tilt>
+        <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} gyroscope>
+          <StepFour />
+        </Tilt>
       </div>
     </div>
   );
