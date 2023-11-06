@@ -1,4 +1,5 @@
 import { Explanation } from "@/components/Explanation";
+import { GetStarted } from "@/components/GetStarted";
 import { Hero } from "@/components/Hero";
 import { TrainTrack } from "@/components/TrainTrack";
 import { TrainsAndBuses } from "@/components/TrainsAndBuses";
@@ -18,6 +19,8 @@ export default function Home() {
         <TrainTrack />
       </div>
       <TrainsAndBuses />
+
+      <GetStarted />
     </div>
   );
 }
