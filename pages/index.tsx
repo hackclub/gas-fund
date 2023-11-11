@@ -1,6 +1,8 @@
+import { EasterEgg } from "@/components/EasterEgg";
 import { Explanation } from "@/components/Explanation";
 import { GetStarted } from "@/components/GetStarted";
 import { Hero } from "@/components/Hero";
+import { Nav } from "@/components/Nav";
 import { TrainTrack } from "@/components/TrainTrack";
 import { TrainsAndBuses } from "@/components/TrainsAndBuses";
 import Works from "@/components/Works";
@@ -10,6 +12,7 @@ export default function Home() {
   const { scrollY } = useScroll();
   return (
     <div>
+      <Nav />
       <Hero />
       <Explanation />
 
@@ -20,7 +23,11 @@ export default function Home() {
       </div>
       <TrainsAndBuses />
 
-      <GetStarted />
+      <div className="border-t-[3px] border-gray-100 mt-8 border-dotted">
+        <GetStarted />
+      </div>
+
+      <EasterEgg />
     </div>
   );
 }

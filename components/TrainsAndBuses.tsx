@@ -7,10 +7,9 @@ export const TrainsAndBuses = () => {
         </h1>
         <div>
           <p className="mt-4 font-light text-white text-left text-lg md:text-xl  w-full mx-auto">
-            Gas Fund reaches to extend the joy of hackathons to as many people,
-            in an easy and accessible way. If you are unable to drive to a
-            hackathon, we can reimburse the equivalent amount of miles for a
-            bus/train ticket.
+            If you are unable to drive to a hackathon, we can reimburse the
+            equivalent amount of miles for a bus/train ticket at a flat rate of{" "}
+            <span className="underline">45 cents a mile!</span>
           </p>
         </div>
       </div>

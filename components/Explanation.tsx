@@ -21,9 +21,16 @@ export const Explanation = () => {
           </a>{" "}
           want more people to be able to go to hackathons. This school year,
           we'll fund the cost of gas for you (or a parent) to drive to{" "}
-          <a href="https://hackathons.hackclub.com" target="_blank">
-            any hackathon in the USA or Canada
-          </a>
+          <span className="font-bold">
+            any hackathon listed on{" "}
+            <a
+              href="https://hackathons.hackclub.com"
+              target="_blank"
+              className="underline"
+            >
+              hackathons.hackclub.com
+            </a>
+          </span>
           . We'll alternatively reimburse you the equivalent of that if you buy
           a train or bus ticket.
         </p>
