@@ -1,12 +1,20 @@
 export const Explanation = () => {
   return (
     <div className="relative">
-      <div className="my-[5vh] w-screen flex items-center justify-center bg-repeat-x bg-cover bg-[url('/supportrail.svg')]">
+      <div
+        className="my-[5vh]  w-full flex items-center justify-center bg-repeat-x bg-cover bg-[url('/supportrail.svg')]"
+        style={{
+          backgroundSize: "auto 100%",
+        }}
+      >
         <img
           src="/lightsign.svg"
-          className=" mx-auto scale-y-[95%] mt-2 w-[80%]"
+          className=" mx-auto max-h-[15rem] scale-y-[95%] mt-2 w-[80%]"
         />
-        <img src="/lightsign.svg" className="absolute mx-auto opacity-0" />
+        <img
+          src="/lightsign.svg"
+          className="absolute max-h-[15rem] mx-auto opacity-0"
+        />
       </div>
 
       <div>

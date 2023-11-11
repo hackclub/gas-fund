@@ -11,7 +11,10 @@ export const Hero = () => {
 
       <div className="flex w-full h-full justify-center items-center">
         <Tilt tiltMaxAngleX={5} tiltMaxAngleY={5} gyroscope>
-          <img src="/highwaybadge.png" className="h-[50vh]" />
+          <img
+            src="/highwaybadge.svg"
+            className="h-[50vh] lg:max-w-[50rem] px-8"
+          />
         </Tilt>
       </div>
     </div>

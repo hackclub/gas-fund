@@ -11,7 +11,7 @@ import { motion, useScroll } from "framer-motion";
 export default function Home() {
   const { scrollY } = useScroll();
   return (
-    <div>
+    <div className="overflow-x-hidden">
       <Nav />
       <Hero />
       <Explanation />

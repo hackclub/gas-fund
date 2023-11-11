@@ -58,7 +58,7 @@ export const Nav = () => {
         </a>
         <a
           href="#signup"
-          className="no-underline bg-[#01735C] ease-in-out hover:bg-[#1c5549] text-white uppercase font-bold px-10 py-2 text-[1.3rem] tracking-wide rounded-md bg-accent-default  transition duration-100   text-beige"
+          className="no-underline bg-[#01735C] ease-in-out hover:bg-[#1c5549] text-white uppercase font-bold px-4 md:px-10 py-2 text-[1.3rem] tracking-wide rounded-md bg-accent-default  transition duration-100   text-beige"
         >
           Get Started
         </a>
