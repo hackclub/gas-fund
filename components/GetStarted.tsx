@@ -27,7 +27,7 @@ export const GetStarted = () => {
           <input
             type="text"
             onInput={(e) => {
-              setName(e.target.value);
+              setName((e.target as HTMLTextAreaElement).value);
             }}
             placeholder={"Name"}
             className="bg-[#01735C] py-1 text-xl md:text-[3vw] leading-tight font-black text-white rounded-md uppercase tracking-tight px-2"
@@ -36,7 +36,7 @@ export const GetStarted = () => {
             type="text"
             placeholder={"Email"}
             onInput={(e) => {
-              setEmail(e.target.value);
+              setEmail((e.target as HTMLTextAreaElement).value);
             }}
             className="bg-[#01735C] py-1 text-xl  md:text-[3vw] leading-tight font-black text-white rounded-md uppercase tracking-tight px-2"
           />
