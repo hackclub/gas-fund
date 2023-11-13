@@ -2,7 +2,8 @@ export const Explanation = () => {
   return (
     <div className="relative">
       <div
-        className="my-[5vh]  w-full flex items-center justify-center bg-repeat-x bg-cover bg-[url('/supportrail.svg')]"
+        // bg-[url('/supportrail.svg')]
+        className="my-[5vh]  w-full flex items-center justify-center bg-repeat-x bg-cover "
         style={{
           backgroundSize: "auto 100%",
         }}
