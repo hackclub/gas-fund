@@ -23,7 +23,7 @@ export default function Home() {
       </div>
       <TrainsAndBuses />
 
-      <div className="border-t-[3px] border-gray-100 mt-8 border-dotted">
+      <div className="border-t-[3px] border-gray-100 mt-8 pt-4 border-dotted">
         <GetStarted />
       </div>
 

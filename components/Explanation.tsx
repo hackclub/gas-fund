@@ -3,25 +3,30 @@ export const Explanation = () => {
     <div className="relative">
       <div
         // bg-[url('/supportrail.svg')]
-        className="my-[5vh]  w-full flex items-center justify-center bg-repeat-x bg-cover bg-[#1A1A1A]"
+        className="my-[5vh]  w-full flex items-center justify-center bg-repeat-x bg-cover "
         style={{
           backgroundSize: "auto 100%",
         }}
       >
-        <img
+        {/* <img
           src="/lightsign.svg"
           className=" mx-auto max-h-[15rem] scale-y-[100%] mt-2 w-[80%]"
         />
         <img
           src="/lightsign.svg"
           className="absolute max-h-[15rem] mx-auto opacity-0"
+        /> */}
+
+        <img
+          src="/lighttext.svg"
+          className=" mx-auto max-h-[15rem] scale-y-[100%] mt-2"
         />
       </div>
 
       <div>
         <img
           src="/assemble.png"
-          className="mx-auto w-full md:w-[60%] mb-[4vh]"
+          className="mx-auto -rotate-2 w-full md:w-[60%] mb-[6vh]"
         />
         <p className="font-light text-white text-center text-lg md:text-2xl px-6 w-full md:w-3/4 mx-auto">
           We{" "}

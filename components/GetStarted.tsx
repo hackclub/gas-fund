@@ -16,13 +16,20 @@ export const GetStarted = () => {
         <div>
           <p className="mt-4 font-light text-white text-left text-lg md:text-xl  w-full mx-auto">
             Whether you have gone or are going to a hackathon, let’s get you set
-            up and ready to go with Gas Fund. Fill out the fields below so the
-            team can contact you with more information.
+            up and ready to go with Gas Fund. Fill out the fields below in order
+            to get started. (Note: you will be redirected{" "}
+            <a
+              href="https://airtable.com/appl0Cy5w1E1HzAkm/shrFj5GqEgPStPghl"
+              className="underline"
+            >
+              here
+            </a>
+            )
           </p>
         </div>
       </div>
 
-      <div className="max-w-2xl mx-auto">
+      <div className="max-w-2xl mx-auto px-6 md:px-0">
         <div className="flex flex-col  space-y-2">
           <input
             type="text"
