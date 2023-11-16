@@ -3,14 +3,14 @@ export const Explanation = () => {
     <div className="relative">
       <div
         // bg-[url('/supportrail.svg')]
-        className="my-[5vh]  w-full flex items-center justify-center bg-repeat-x bg-cover "
+        className="my-[5vh]  w-full flex items-center justify-center bg-repeat-x bg-cover bg-[#1A1A1A]"
         style={{
           backgroundSize: "auto 100%",
         }}
       >
         <img
           src="/lightsign.svg"
-          className=" mx-auto max-h-[15rem] scale-y-[95%] mt-2 w-[80%]"
+          className=" mx-auto max-h-[15rem] scale-y-[100%] mt-2 w-[80%]"
         />
         <img
           src="/lightsign.svg"
