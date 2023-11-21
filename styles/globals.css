@@ -8,6 +8,9 @@ body {
   background: #000;
   font-family: "Overpass", "sans-serif";
 }
+html{
+  scroll-behavior: smooth;
+}
 
 a {
   @apply underline;
