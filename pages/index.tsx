@@ -1,5 +1,6 @@
 import { EasterEgg } from "@/components/EasterEgg";
 import { Explanation } from "@/components/Explanation";
+import Footer from "@/components/Footer";
 import { GetStarted } from "@/components/GetStarted";
 import { Hero } from "@/components/Hero";
 import { Nav } from "@/components/Nav";
@@ -26,7 +27,7 @@ export default function Home() {
       <div className="border-t-[3px] border-gray-100 mt-8 pt-4 border-dotted">
         <GetStarted />
       </div>
-
+<Footer />
       <EasterEgg />
     </div>
   );
