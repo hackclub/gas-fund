@@ -7,7 +7,7 @@ const Footer = () => {
            </div>
 
            <div>
-           Source code open sourced at <a href="https://github.com/hackclub/gas-fund" className="font-bold no-underline">hackclub/gas-fund</a> and finances released on HCB.
+           Source code open sourced at <a href="https://github.com/hackclub/gas-fund" className="font-bold no-underline">hackclub/gas-fund</a> and finances released on <a href="https://hcb.hackclub.com/hq-gas-fund" className="font-bold">HCB</a>.
            </div>
         </div>
     );
