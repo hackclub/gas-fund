@@ -58,15 +58,15 @@ export const GetStarted = () => {
           <button
             onClick={() => {
               router.push(
-                `https://airtable.com/appl0Cy5w1E1HzAkm/shrFj5GqEgPStPghl?prefill_Name=${encodeURIComponent(
+                `https://forms.hackclub.com/t/knkBupg1FNus?name=${encodeURIComponent(
                   name
-                )}&prefill_Email=${encodeURIComponent(email)}`
+                )}&email=${encodeURIComponent(email)}`
               );
             }}
             className=" text-3xl font-bold rounded-md w-full p-[1px]  bg-[#FFA600]    text-black uppercase"
           >
             <div className="p-2 border-[3px] border-black rounded-md flex justify-center items-center">
-            Fill out 2 more fields
+              Fill out 2 more fields
             </div>
           </button>
         </Tilt>

@@ -14,13 +14,6 @@ export const TrainsAndBuses = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        {/* <div className="flex mx-auto border border-red-500 w-[50vw] relative ">
-          <img src="/bus.png" className="h-auto w-auto absolute" />
-          <img
-            src="/amtrak.png"
-            className="rotate-[8deg] scale-90 absolute left-1/2"
-          />
-        </div> */}
         <img
           src="/busntrain.png"
           className="px-6 md:px-0 w-full max-w-6xl md:w-[70vw]"
