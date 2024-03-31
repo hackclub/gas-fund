@@ -19,7 +19,7 @@ export const GetStarted = () => {
             up and ready to go with Gas Fund. Fill out the fields below in order
             to get started. (Note: you will be redirected{" "}
             <a
-              href="https://airtable.com/appl0Cy5w1E1HzAkm/shrFj5GqEgPStPghl"
+              href="https://forms.hackclub.com/t/knkBupg1FNus"
               className="underline"
             >
               here
