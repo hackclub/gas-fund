@@ -66,7 +66,7 @@ export const GetStarted = () => {
             className=" text-3xl font-bold rounded-md w-full p-[1px]  bg-[#FFA600]    text-black uppercase"
           >
             <div className="p-2 border-[3px] border-black rounded-md flex justify-center items-center">
-              Fill out 2 more fields
+              Fill out 9 more fields
             </div>
           </button>
         </Tilt>
