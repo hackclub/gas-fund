@@ -6,7 +6,7 @@ export const Nav = () => {
   const controls = useAnimation();
 
   useEffect(() => {
-    scrollYProgress.onChange((latest) => {
+    const unsubscribe = scrollYProgress.on("change", (latest) => {
       // Adjust these values according to your design preferences
       const threshold = 0.2;
       const opacityThreshold = 0.8;
@@ -30,6 +30,7 @@ export const Nav = () => {
         });
       }
     });
+    return unsubscribe;
   }, []);
 
   return (
@@ -58,7 +59,7 @@ export const Nav = () => {
         </a>
         <a
           href="#signup"
-          className="no-underline bg-[#01735C]  ease-in-out hover:bg-[#1c5549] text-white uppercase font-bold px-4 md:px-10 py-2 text-md md:text-[1.3rem] tracking-wide rounded-md bg-accent-default  transition duration-100   text-beige"
+          className="no-underline bg-[#01735C] ease-in-out hover:bg-[#1c5549] text-white uppercase font-bold px-4 md:px-10 py-2 text-md md:text-[1.3rem] tracking-wide rounded-md bg-accent-default transition duration-100  text-beige"
         >
           Get Started
         </a>
