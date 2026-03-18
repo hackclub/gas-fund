@@ -56,7 +56,7 @@ export const Nav = () => {
             alt="Hack Club flag"
             width={144}
             height={48}
-            className="-top-2 left-4 hover:rotate-12 origin-top-left transition ease-in-out w-[30%] absolute sm:w-36"
+            className="-top-2 left-4 hover:rotate-12 origin-top-left transition ease-in-out w-[30%] h-auto absolute sm:w-36"
           />
         </a>
         <a

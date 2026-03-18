@@ -8,7 +8,7 @@ export const TrainsAndBuses = () => {
           Trains & Buses?
         </h1>
         <div>
-          <p className="mt-4 font-light text-white text-left text-lg md:text-xl  w-full mx-auto">
+          <p className="mt-4 font-light text-white text-left text-lg md:text-xl w-full mx-auto">
             If you are unable to drive to a hackathon, we can reimburse the
             equivalent amount of miles for a bus/train ticket at a flat rate of{" "}
             <span className="underline">10 cents a mile!</span>

@@ -15,7 +15,7 @@ export const Explanation = () => {
           alt="Light text sign"
           width={600}
           height={240}
-          className=" mx-auto max-h-[15rem] scale-y-[100%] mt-2"
+          className=" mx-auto max-h-60 w-auto scale-y-100 mt-2"
         />
       </div>
 
