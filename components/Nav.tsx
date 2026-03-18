@@ -1,4 +1,5 @@
 import { motion, useScroll, useAnimation } from "framer-motion";
+import Image from "next/image";
 import { useEffect } from "react";
 
 export const Nav = () => {
@@ -31,7 +32,7 @@ export const Nav = () => {
       }
     });
     return unsubscribe;
-  }, []);
+  }, [controls, scrollYProgress]);
 
   return (
     <motion.div
@@ -52,8 +53,11 @@ export const Nav = () => {
     >
       <div className="w-full flex items-center justify-between">
         <a href="https://hackclub.com" target="_blank">
-          <img
+          <Image
             src="https://assets.hackclub.com/flag-orpheus-top.svg"
+            alt="Hack Club flag"
+            width={144}
+            height={48}
             className="-top-2 left-4 hover:rotate-12 origin-top-left transition ease-in-out w-[30%] absolute sm:w-36"
           />
         </a>

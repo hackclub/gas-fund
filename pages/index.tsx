@@ -8,6 +8,7 @@ import { TrainTrack } from "@/components/TrainTrack";
 import { TrainsAndBuses } from "@/components/TrainsAndBuses";
 import Works from "@/components/Works";
 import { motion, useScroll } from "framer-motion";
+import Image from "next/image";
 import Head from "next/head";
 
 export default function Home() {
@@ -22,7 +23,7 @@ export default function Home() {
         <Hero />
         <Explanation />
 
-        <img src="/roadbanner.svg" className="w-full my-[5vh]" />
+        <Image src="/roadbanner.svg" alt="Road banner" width={1920} height={200} className="w-full my-[5vh]" />
         <Works />
         <div className="mt-2">
           <TrainTrack />
