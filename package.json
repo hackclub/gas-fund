@@ -9,16 +9,16 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "framer-motion": "^10.16.4",
+    "framer-motion": "^12.38.0",
     "next": "14.0.0",
-    "react": "^18",
-    "react-dom": "^18",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
     "react-parallax-tilt": "^1.7.172"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
+    "@types/node": "^25.5.0",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10",
     "postcss": "^8",
     "tailwindcss": "^3",
