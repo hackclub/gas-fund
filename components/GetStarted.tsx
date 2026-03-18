@@ -45,7 +45,7 @@ export const GetStarted = () => {
             onInput={(e) => {
               setEmail((e.target as HTMLTextAreaElement).value);
             }}
-            className="bg-[#01735C] py-1 text-xl  md:text-[3vw] leading-tight font-black text-white rounded-md uppercase tracking-tight px-2"
+            className="bg-[#01735C] py-1 text-xl md:text-[3vw] leading-tight font-black text-white rounded-md uppercase tracking-tight px-2"
           />
         </div>
         <Tilt
@@ -63,7 +63,7 @@ export const GetStarted = () => {
                 )}&email=${encodeURIComponent(email)}`
               );
             }}
-            className=" text-3xl font-bold rounded-md w-full p-[1px]  bg-[#FFA600]    text-black uppercase"
+            className=" text-3xl font-bold rounded-md w-full p-px bg-[#FFA600] text-black uppercase"
           >
             <div className="p-2 border-[3px] border-black rounded-md flex justify-center items-center">
               Fill out 9 more fields

@@ -1,6 +1,6 @@
 const Footer = () => {
     return (
-        <div className="text-white text-center top-[7rem] relative">
+        <div className="text-white text-center top-28 relative">
             <div>
            Pages hand inked by <a href="https://hackclub.com/" className="font-bold no-underline">Hack Club</a>
            ~ Send mail ⛽ to <a href="mailto:gas@hackclub.com" className="font-bold no-underline">gas@hackclub.com</a>.

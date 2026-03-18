@@ -2,8 +2,8 @@ import Image from "next/image";
 
 export const StepOne = () => {
   return (
-    <div className="aspect-[3/2] bg-center rounded-xl relative">
-      <Image src="/hackathon.png" alt="Hackathon event" fill className="bg-cover rounded-xl object-cover" />
+    <div className="aspect-3/2 bg-center rounded-xl relative">
+      <Image src="/hackathon.png" alt="Hackathon event" fill sizes="(max-width: 768px) 100vw, 50vw" className="bg-cover rounded-xl object-cover" />
 
       <Image
         src="/stepone.png"

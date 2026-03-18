@@ -20,7 +20,7 @@ export const Hero = () => {
             alt="Gas Fund highway badge"
             width={800}
             height={500}
-            className="h-[50vh] w-auto lg:max-w-[50rem] px-8"
+            className="h-[50vh] w-auto lg:max-w-200 px-8"
             priority
           />
         </Tilt>
