@@ -10,10 +10,8 @@ export const Nav = () => {
     const unsubscribe = scrollYProgress.on("change", (latest) => {
       // Adjust these values according to your design preferences
       const threshold = 0.2;
-      const opacityThreshold = 0.8;
 
       if (latest > threshold) {
-        const opacity = Math.min((latest - threshold) / opacityThreshold, 1);
         const blur = Math.min((latest - threshold) / 0.2, 1);
 
         controls.start({
