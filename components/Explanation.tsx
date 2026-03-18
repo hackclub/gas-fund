@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const Explanation = () => {
   return (
     <div className="relative">
@@ -8,24 +10,21 @@ export const Explanation = () => {
           backgroundSize: "auto 100%",
         }}
       >
-        {/* <img
-          src="/lightsign.svg"
-          className=" mx-auto max-h-[15rem] scale-y-[100%] mt-2 w-[80%]"
-        />
-        <img
-          src="/lightsign.svg"
-          className="absolute max-h-[15rem] mx-auto opacity-0"
-        /> */}
-
-        <img
+        <Image
           src="/lighttext.svg"
+          alt="Light text sign"
+          width={600}
+          height={240}
           className=" mx-auto max-h-[15rem] scale-y-[100%] mt-2"
         />
       </div>
 
       <div>
-        <img
+        <Image
           src="/assemble.png"
+          alt="Assemble hackathon"
+          width={800}
+          height={600}
           className="mx-auto -rotate-2 w-full md:w-[60%] mb-[6vh]"
         />
         <p className="font-light text-white text-center text-lg md:text-2xl px-6 w-full md:w-3/4 mx-auto">
@@ -34,7 +33,7 @@ export const Explanation = () => {
             (Hack Club)
           </a>{" "}
           want more people to be able to go to hackathons. This school year,
-          we'll fund the cost of gas for you (or a parent) to drive to{" "}
+          we&apos;ll fund the cost of gas for you (or a parent) to drive to{" "}
           <span className="font-bold">
             any hackathon listed on{" "}
             <a
@@ -45,7 +44,7 @@ export const Explanation = () => {
               hackathons.hackclub.com
             </a>
           </span>
-          . We'll alternatively reimburse you the equivalent of that if you buy
+          . We&apos;ll alternatively reimburse you the equivalent of that if you buy
           a train or bus ticket.
         </p>
       </div>

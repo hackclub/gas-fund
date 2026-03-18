@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export const TrainsAndBuses = () => {
   return (
     <div>
@@ -14,8 +16,11 @@ export const TrainsAndBuses = () => {
         </div>
       </div>
       <div className="flex justify-center">
-        <img
+        <Image
           src="/busntrain.png"
+          alt="Bus and train"
+          width={1200}
+          height={600}
           className="px-6 md:px-0 w-full max-w-6xl md:w-[70vw]"
         />
       </div>
