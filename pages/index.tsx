@@ -23,7 +23,7 @@ export default function Home() {
             href="https://hackclub.com/programs"
             target="_blank"
             rel="noreferrer"
-            className="underline"
+            className="ml-1 underline"
           >
             hackclub.com/programs
           </a>
