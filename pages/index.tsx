@@ -17,6 +17,18 @@ export default function Home() {
         <title>Gas Fund</title>
       </Head>
       <div className="overflow-x-hidden">
+        <div className="fixed top-0 z-600 flex min-h-18 w-full items-center justify-center bg-[#FFA600] px-4 py-2 text-center font-bold text-black">
+          Gas Fund has ended, but you can find your next adventure at{" "}
+          <a
+            href="https://hackclub.com/programs"
+            target="_blank"
+            rel="noreferrer"
+            className="underline"
+          >
+            hackclub.com/programs
+          </a>
+          !
+        </div>
         <Nav />
         <Hero />
         <Explanation />

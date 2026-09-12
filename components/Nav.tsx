@@ -40,7 +40,7 @@ export const Nav = () => {
         justifyContent: "space-between",
         gap: "16px",
         position: "fixed",
-        top: 0,
+        top: "72px",
         zIndex: 599,
         width: "100%",
         display: "flex",
