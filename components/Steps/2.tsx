@@ -3,7 +3,13 @@ import Image from "next/image";
 export const StepTwo = () => {
   return (
     <div className="aspect-3/2 bg-center rounded-xl relative">
-      <Image src="/selfie.png" alt="Selfie at hackathon" fill sizes="(max-width: 768px) 100vw, 50vw" className="bg-cover rounded-xl object-cover" />
+      <Image
+        src="/selfie.png"
+        alt="Selfie at hackathon"
+        fill
+        sizes="(max-width: 768px) 100vw, 50vw"
+        className="bg-cover rounded-xl object-cover"
+      />
 
       <Image
         src="/steptwo.png"

@@ -15,11 +15,14 @@ export const TrainTrack = () => {
         </div>
       </div>
 
-      <div
-        style={{ zIndex: 20 }}
-        className="bg-repeat-x bg-[url('/track.svg')] relative"
-      >
-        <Image src="/track.svg" alt="" width={800} height={50} className="opacity-0 h-full w-auto" />
+      <div style={{ zIndex: 20 }} className="bg-repeat-x bg-[url('/track.svg')] relative">
+        <Image
+          src="/track.svg"
+          alt=""
+          width={800}
+          height={50}
+          className="opacity-0 h-full w-auto"
+        />
       </div>
     </div>
   );

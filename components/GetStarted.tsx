@@ -8,7 +8,8 @@ export const GetStarted = () => {
           Gas Fund has ended
         </h1>
         <p className="mt-4 font-light text-white text-left text-lg md:text-xl w-full mx-auto">
-          We're no longer accepting applications for Gas Fund, but you can find your next adventure at{" "}
+          We're no longer accepting applications for Gas Fund, but you can find your next adventure
+          at{" "}
           <a
             href="https://hackclub.com/programs"
             target="_blank"

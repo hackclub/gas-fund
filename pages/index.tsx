@@ -33,7 +33,13 @@ export default function Home() {
         <Hero />
         <Explanation />
 
-        <Image src="/roadbanner.svg" alt="Road banner" width={1920} height={200} className="w-full my-[5vh]" />
+        <Image
+          src="/roadbanner.svg"
+          alt="Road banner"
+          width={1920}
+          height={200}
+          className="w-full my-[5vh]"
+        />
         <Works />
         <div className="mt-2">
           <TrainTrack />

@@ -6,7 +6,10 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint ."
+    "lint": "oxlint --react-plugin --nextjs-plugin .",
+    "lint:fix": "oxlint --react-plugin --nextjs-plugin --fix .",
+    "format": "oxfmt --write .",
+    "format:check": "oxfmt --check ."
   },
   "dependencies": {
     "@tailwindcss/postcss": "^4.3.3",
@@ -20,8 +23,8 @@
     "@types/node": "^22.20.2",
     "@types/react": "^19.3.0",
     "@types/react-dom": "^19.3.0",
-    "eslint": "^9.39.5",
-    "eslint-config-next": "^16.3.5",
+    "oxfmt": "^0.67.0",
+    "oxlint": "^1.82.0",
     "postcss": "^8.5.28",
     "tailwindcss": "^4.3.3",
     "typescript": "^6.0.3"

@@ -32,20 +32,16 @@ export const Explanation = () => {
           <a href="https://hackclub.com" target="_blank">
             (Hack Club)
           </a>{" "}
-          want more people to be able to go to hackathons. This school year,
-          we&apos;ll fund the cost of gas for you (or a parent) to drive to{" "}
+          want more people to be able to go to hackathons. This school year, we&apos;ll fund the
+          cost of gas for you (or a parent) to drive to{" "}
           <span className="font-bold">
             any hackathon listed on{" "}
-            <a
-              href="https://hackathons.hackclub.com"
-              target="_blank"
-              className="underline"
-            >
+            <a href="https://hackathons.hackclub.com" target="_blank" className="underline">
               hackathons.hackclub.com
             </a>
           </span>
-          . We&apos;ll alternatively reimburse you the equivalent of that if you buy
-          a train or bus ticket.
+          . We&apos;ll alternatively reimburse you the equivalent of that if you buy a train or bus
+          ticket.
         </p>
       </div>
     </div>
